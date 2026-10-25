@@ -1,0 +1,8 @@
+{
+  "name": "Remix Muay Thai Pro — Treinamento Digital",
+  "description": "Ten tus entrenamientos de Muay Thai organizados y listos para consultar cuando quieras. Entrenamientos en video, combinaciones listas y acceso inmediato.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
