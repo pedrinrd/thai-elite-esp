@@ -43,13 +43,13 @@ export function GuaranteeFaqSection({ onCtaClick }: GuaranteeFaqSectionProps) {
 
           <div className="flex-1">
             <span className="text-xs uppercase tracking-widest text-[#D4AF37] font-semibold block mb-1">
-              7 DÍAS DE GARANTÍA
+              7 DÍAS
             </span>
             <h2
               className="font-headline font-black text-2xl sm:text-4xl text-white tracking-tight uppercase mb-3"
               style={{ textWrap: 'balance' }}
             >
-              PRUEBA THAI ELITE DURANTE 7 DÍAS.
+              ¡TIENES 7 DÍAS PARA CONOCER THAI ELITE!
             </h2>
             <p className="text-sm sm:text-base text-[#A1A1AA] leading-relaxed">
               {OFFER_CONFIG.guaranteeText}
@@ -68,7 +68,7 @@ export function GuaranteeFaqSection({ onCtaClick }: GuaranteeFaqSectionProps) {
           className="text-center mb-10"
         >
           <span className="text-xs font-semibold uppercase tracking-widest text-[#E50914] mb-2 block">
-            DUDAS FRECUENTES
+            DUDAS DE QUIENES ESTÁN EMPEZANDO
           </span>
           <h3 className="font-headline font-bold text-3xl sm:text-4xl text-white tracking-tight">
             PREGUNTAS FRECUENTES
@@ -131,20 +131,20 @@ export function GuaranteeFaqSection({ onCtaClick }: GuaranteeFaqSectionProps) {
         className="text-center bg-gradient-to-b from-[#141414] to-[#0d0d0d] border border-[#262626] rounded-2xl p-8 sm:p-12 shadow-xl"
       >
         <h3 className="font-headline font-black text-2xl sm:text-4xl text-white tracking-tight uppercase mb-3">
-          ¡DEJA DE PERDER TIEMPO BUSCANDO ENTRENAMIENTOS!
+          ¡TU PRIMER PASO EN EL MUAY THAI COMIENZA AQUÍ!
         </h3>
         <p className="text-sm text-[#A1A1AA] max-w-lg mx-auto mb-8">
-          Ten tu biblioteca de Muay Thai organizada y lista para consultar desde tu celular o computadora.
+          Conoce los fundamentos del Muay Thai, descubre técnicas y combinaciones y comienza a aprender desde casa con entrenamientos en video.
         </p>
         <button
           type="button"
           onClick={onCtaClick}
           className="w-full sm:w-auto px-10 py-4 min-h-[52px] bg-[#E50914] hover:bg-[#C40812] active:scale-[0.98] text-white text-base sm:text-lg font-headline font-bold uppercase tracking-wider rounded-lg shadow-xl shadow-[#E50914]/30 border border-white/10 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E50914]"
         >
-          QUIERO ACCEDER A THAI ELITE
+          ¡QUIERO EMPEZAR DESDE $100 MXN!
         </button>
         <p className="text-xs text-[#71717A] mt-3">
-          Pago único y seguro • Acceso digital • Garantía de 7 días
+          Pago único • Acceso digital • Garantía de 7 días
         </p>
       </motion.div>
     </section>

@@ -36,10 +36,10 @@ export function OfferSection({
           className="font-headline font-black text-3xl sm:text-5xl text-white tracking-tight mb-3"
           style={{ textWrap: 'balance' }}
         >
-          ELIGE CÓMO QUIERES COMENZAR TU ENTRENAMIENTO.
+          ¡DA TU PRIMER PASO EN EL MUAY THAI!
         </h2>
         <p className="text-base sm:text-lg text-[#A1A1AA]">
-          Un solo pago. Acceso digital a tus materiales de Muay Thai.
+          Comienza a conocer los fundamentos del Muay Thai con entrenamientos en video que puedes consultar desde casa. Un solo pago. Sin mensualidades.
         </p>
       </motion.div>
 
@@ -62,6 +62,9 @@ export function OfferSection({
               <h3 className="font-headline font-bold text-3xl text-white tracking-wide mt-1">
                 THAI ELITE ESENCIAL
               </h3>
+              <p className="text-xs text-[#A1A1AA] mt-2 leading-relaxed">
+                Ideal para comenzar a conocer los fundamentos del Muay Thai y explorar entrenamientos en video.
+              </p>
             </div>
 
             {/* Price Box */}
@@ -82,12 +85,13 @@ export function OfferSection({
             {/* Benefits List */}
             <ul className="space-y-3.5 mb-8">
               {[
-                'Biblioteca principal de entrenamientos',
-                'Entrenamientos en video',
-                'Combinaciones y ejercicios organizados',
-                'Consulta desde celular o computadora',
-                'Acceso digital inmediato',
-                'Garantía de 7 días',
+                'Biblioteca digital de entrenamientos.',
+                'Técnicas de puños, patadas y defensas.',
+                'Demostraciones y combinaciones en video.',
+                'Acceso desde celular o computadora.',
+                'Aprende a tu propio ritmo.',
+                'Acceso digital inmediato.',
+                'Garantía de 7 días.',
               ].map((benefit, i) => (
                 <li
                   key={i}
@@ -106,10 +110,10 @@ export function OfferSection({
               onClick={onSelectBasic}
               className="w-full py-4 min-h-[48px] bg-[#222222] hover:bg-[#2c2c2c] active:scale-[0.99] border border-[#333333] hover:border-[#444444] text-white text-sm sm:text-base font-semibold tracking-wider uppercase rounded-lg transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/40"
             >
-              QUIERO EL PLAN ESENCIAL — {formatMXN(OFFER_CONFIG.prices.basic, true)}
+              ¡QUIERO EMPEZAR POR {formatMXN(OFFER_CONFIG.prices.basic, true)}!
             </button>
             <p className="text-[11px] text-center text-[#71717A] mt-2">
-              Recibe acceso digital después de confirmar tu pago.
+              Pago único de {formatMXN(OFFER_CONFIG.prices.basic, true)} • Acceso digital inmediato
             </p>
           </div>
         </motion.div>
@@ -137,6 +141,9 @@ export function OfferSection({
               <h3 className="font-headline font-bold text-3xl text-white tracking-wide mt-1">
                 THAI ELITE COMPLETO
               </h3>
+              <p className="text-xs text-[#A1A1AA] mt-2 leading-relaxed">
+                La biblioteca principal de Muay Thai más cinco bonos exclusivos para ampliar tus conocimientos y complementar tu aprendizaje.
+              </p>
             </div>
 
             {/* Price Box */}
@@ -157,13 +164,13 @@ export function OfferSection({
             {/* Benefits List */}
             <ul className="space-y-3.5 mb-6">
               {[
-                'Todo lo incluido en Thai Elite Esencial',
-                'Bono 01: 20 Combinaciones de Ataque Profesionales',
-                'Bono 02: 50 Entrenamientos Físicos para Muay Thai',
-                'Bono 03: 50 Técnicas de Defensa y Contraataque',
-                'Bono 04: Guía de Fundamentos del Muay Thai',
-                'Bono 05: Guía de Recuperación Muscular',
-                'Garantía de 7 días',
+                'Todo lo incluido en Thai Elite Esencial.',
+                'Bono 01: 20 Combinaciones de Ataque Profesionales.',
+                'Bono 02: 50 Entrenamientos Físicos para Muay Thai.',
+                'Bono 03: 50 Técnicas de Defensa y Contraataque.',
+                'Bono 04: Guía de Fundamentos del Muay Thai.',
+                'Bono 05: Guía de Recuperación Muscular.',
+                'Garantía de 7 días.',
               ].map((benefit, i) => (
                 <li
                   key={i}
@@ -180,7 +187,7 @@ export function OfferSection({
             </ul>
 
             <p className="text-xs font-headline font-bold uppercase tracking-wider text-[#D4AF37] text-center mb-6">
-              ¡LLÉVATE LOS 5 BONOS Y COMPLEMENTA TU ENTRENAMIENTO!
+              ¡APRENDE LOS FUNDAMENTOS Y AMPLÍA TUS ENTRENAMIENTOS!
             </p>
           </div>
 
@@ -190,11 +197,11 @@ export function OfferSection({
               onClick={onSelectPro}
               className="w-full py-4 min-h-[48px] bg-[#E50914] hover:bg-[#C40812] active:scale-[0.99] text-white text-base sm:text-lg font-headline font-bold tracking-wider uppercase rounded-lg shadow-lg shadow-[#E50914]/30 border border-white/20 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E50914]"
             >
-              QUIERO THAI ELITE COMPLETO — {formatMXN(OFFER_CONFIG.prices.pro)}
+              ¡QUIERO THAI ELITE COMPLETO — {formatMXN(OFFER_CONFIG.prices.pro)}!
             </button>
             <div className="flex items-center justify-center gap-1.5 text-[11px] text-[#A1A1AA] mt-2">
               <ShieldCheck className="w-3.5 h-3.5 text-[#D4AF37]" />
-              <span>Compra protegida con garantía de 7 días.</span>
+              <span>Pago único • Incluye los 5 bonos • Garantía de 7 días</span>
             </div>
           </div>
         </motion.div>

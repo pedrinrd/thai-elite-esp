@@ -14,7 +14,7 @@ test('Offer pricing matches exact Mexico strategy ($100, $219, $149 MXN)', () =>
   assert.equal(OFFER_CONFIG.prices.upgrade, 149);
   assert.equal(
     OFFER_CONFIG.vslVideoSrc,
-    '/assets/aistudio/Video_Project_6_afb3c956.mp4'
+    '/assets/aistudio/vsl_esp_nv_5e7c703f.mp4'
   );
 });
 
@@ -64,21 +64,35 @@ test('Mexican Peso ($XX MXN) format helper formats values properly', () => {
   assert.equal(formatMXN(70), '$70 MXN');
 });
 
-test('FAQ covers all localized es-MX questions with proper ¿ and ? marks', () => {
-  assert.equal(OFFER_CONFIG.faq.length, 5);
-  assert.equal(OFFER_CONFIG.faq[0].question, '¿Cómo recibo mi acceso?');
-  assert.equal(OFFER_CONFIG.faq[1].question, '¿Puedo acceder desde mi celular?');
-  assert.equal(OFFER_CONFIG.faq[2].question, '¿Es un pago único?');
-  assert.equal(OFFER_CONFIG.faq[3].question, '¿Tengo garantía?');
+test('FAQ covers all 6 localized es-MX beginner questions with proper ¿ and ? marks', () => {
+  assert.equal(OFFER_CONFIG.faq.length, 6);
   assert.equal(
-    OFFER_CONFIG.faq[4].question,
-    '¿Cuál es la diferencia entre Thai Elite Esencial y Completo?'
+    OFFER_CONFIG.faq[0].question,
+    '¿PUEDO EMPEZAR SI NUNCA HE PRACTICADO MUAY THAI?'
+  );
+  assert.equal(OFFER_CONFIG.faq[1].question, '¿PUEDO APRENDER DESDE CASA?');
+  assert.equal(
+    OFFER_CONFIG.faq[2].question,
+    '¿NECESITO EQUIPO PARA COMENZAR?'
+  );
+  assert.equal(OFFER_CONFIG.faq[3].question, '¿CÓMO RECIBO MI ACCESO?');
+  assert.equal(OFFER_CONFIG.faq[4].question, '¿EL PAGO ES ÚNICO?');
+  assert.equal(
+    OFFER_CONFIG.faq[5].question,
+    '¿CUÁL ES LA DIFERENCIA ENTRE LOS PLANES?'
   );
 });
 
-test('UTMify Pixel ID and UTM forwarding are preserved', async () => {
-  const { UTMIFY_PIXEL_ID, UTMIFY_SCRIPT_SRC, buildTrackedCheckoutUrl } =
-    await import('../utils/metaPixel.ts');
+test('LowTrack and UTMify Pixel IDs and UTM forwarding are preserved', async () => {
+  const {
+    UTMIFY_PIXEL_ID,
+    UTMIFY_SCRIPT_SRC,
+    LOWTRACK_PIXEL_ID,
+    LOWTRACK_SCRIPT_SRC,
+    buildTrackedCheckoutUrl,
+  } = await import('../utils/metaPixel.ts');
+  assert.equal(LOWTRACK_PIXEL_ID, 'lt_px_97899de67751');
+  assert.equal(LOWTRACK_SCRIPT_SRC, 'https://lowtrack.com.br/pixel.js');
   assert.equal(UTMIFY_PIXEL_ID, '6abf39dabeae388a564376b3');
   assert.equal(UTMIFY_SCRIPT_SRC, 'https://cdn.utmify.com.br/scripts/pixel/pixel.js');
   assert.equal(

@@ -53,15 +53,15 @@ export function BonusSection({ onCtaClick }: BonusSectionProps) {
           <span className="text-[#E50914] font-bold">5 BONOS EXCLUSIVOS</span>
           <span className="text-[#666]">•</span>
           <span className="text-white/90">
-            LLEVA TUS ENTRENAMIENTOS AL SIGUIENTE NIVEL CON ESTOS 5 BONOS.
+            ¡COMPLEMENTA TU APRENDIZAJE CON ESTOS 5 BONOS!
           </span>
         </div>
         <p className="text-sm sm:text-base text-[#A1A1AA] max-w-xl mx-auto leading-relaxed">
-          Además de la biblioteca principal, al elegir el Plan Completo recibirás{' '}
+          Con THAI ELITE COMPLETO, además de la biblioteca principal de entrenamientos, recibes{' '}
           <strong className="text-white font-semibold">
-            5 materiales adicionales
+            cinco materiales adicionales
           </strong>{' '}
-          para complementar tu entrenamiento.
+          para ampliar tus conocimientos sobre técnicas, fundamentos, defensas y preparación física.
         </p>
       </motion.div>
 
@@ -122,19 +122,19 @@ export function BonusSection({ onCtaClick }: BonusSectionProps) {
                 <span className="w-6 h-6 rounded-full bg-white/5 border border-white/15 flex items-center justify-center text-[#E50914] shrink-0">
                   <Play className="w-3 h-3 fill-current" />
                 </span>
-                <span>Combinaciones de golpes y patadas.</span>
+                <span>Conoce diferentes combinaciones de golpes.</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="w-6 h-6 rounded-full bg-white/5 border border-white/15 flex items-center justify-center text-[#E50914] shrink-0">
                   <FileText className="w-3 h-3" />
                 </span>
-                <span>Secuencias explicadas paso a paso.</span>
+                <span>Descubre secuencias de puños y patadas.</span>
               </div>
               <div className="flex items-center gap-2 sm:col-span-2">
                 <span className="w-6 h-6 rounded-full bg-white/5 border border-white/15 flex items-center justify-center text-[#E50914] shrink-0">
                   <Target className="w-3 h-3" />
                 </span>
-                <span>Ideas para practicar y utilizar en tus clases.</span>
+                <span>Amplía tus conocimientos de ataque.</span>
               </div>
             </div>
           </div>
@@ -143,7 +143,7 @@ export function BonusSection({ onCtaClick }: BonusSectionProps) {
             <div>
               <div className="w-8 h-0.5 bg-[#E50914] mb-2" />
               <p className="text-xs text-[#A1A1AA] max-w-xs leading-relaxed">
-                Amplía tus opciones de entrenamiento con combinaciones organizadas para practicar.
+                Explora combinaciones de Muay Thai y descubre nuevas secuencias para practicar.
               </p>
             </div>
 
@@ -215,11 +215,11 @@ export function BonusSection({ onCtaClick }: BonusSectionProps) {
               </li>
               <li className="flex items-start gap-2.5">
                 <BarChart3 className="w-4 h-4 text-[#A1A1AA] shrink-0 mt-0.5" />
-                <span>Opciones para complementar tu preparación física.</span>
+                <span>Preparación física complementaria.</span>
               </li>
             </ul>
             <p className="text-xs text-[#A1A1AA] leading-relaxed mb-4">
-              Encuentra nuevas ideas para trabajar tu condición física y complementar tus entrenamientos de Muay Thai.
+              Conoce ejercicios que pueden ayudarte a complementar tu preparación física para practicar Muay Thai.
             </p>
           </div>
 
@@ -271,19 +271,19 @@ export function BonusSection({ onCtaClick }: BonusSectionProps) {
             <ul className="space-y-3 text-xs text-[#D4D4D8] mb-4">
               <li className="flex items-center gap-2.5">
                 <Shield className="w-4 h-4 text-[#A1A1AA] shrink-0" />
-                <span>Técnicas defensivas.</span>
+                <span>Conoce diferentes técnicas defensivas.</span>
               </li>
               <li className="flex items-center gap-2.5">
                 <Crosshair className="w-4 h-4 text-[#A1A1AA] shrink-0" />
-                <span>Movimientos de contraataque.</span>
+                <span>Aprende sobre movimientos de contraataque.</span>
               </li>
               <li className="flex items-center gap-2.5">
                 <Brain className="w-4 h-4 text-[#A1A1AA] shrink-0" />
-                <span>Ejercicios para practicar tus reacciones.</span>
+                <span>Amplía tus conocimientos técnicos.</span>
               </li>
             </ul>
             <p className="text-xs text-[#A1A1AA] leading-relaxed mb-4">
-              Conoce diferentes recursos defensivos y amplía tu repertorio técnico.
+              Descubre recursos de defensa y contraataque para comprender mejor los movimientos utilizados en el Muay Thai.
             </p>
           </div>
 
@@ -334,7 +334,7 @@ export function BonusSection({ onCtaClick }: BonusSectionProps) {
               </li>
               <li className="flex items-center gap-2.5">
                 <Compass className="w-4 h-4 text-[#A1A1AA] shrink-0" />
-                <span>Desplazamientos.</span>
+                <span>Desplazamientos básicos.</span>
               </li>
               <li className="flex items-center gap-2.5">
                 <Star className="w-4 h-4 text-[#A1A1AA] shrink-0" />
@@ -342,7 +342,7 @@ export function BonusSection({ onCtaClick }: BonusSectionProps) {
               </li>
             </ul>
             <p className="text-xs text-[#A1A1AA] leading-relaxed mb-4">
-              Refuerza los conocimientos básicos que forman parte de una buena preparación en Muay Thai.
+              Conoce los principios básicos del Muay Thai y refuerza tus conocimientos desde el inicio.
             </p>
           </div>
 
@@ -397,11 +397,11 @@ export function BonusSection({ onCtaClick }: BonusSectionProps) {
               </li>
               <li className="flex items-center gap-2.5">
                 <Activity className="w-4 h-4 text-[#A1A1AA] shrink-0" />
-                <span>Recomendaciones para complementar tu rutina.</span>
+                <span>Recomendaciones para tu rutina.</span>
               </li>
             </ul>
             <p className="text-xs text-[#A1A1AA] leading-relaxed mb-4">
-              Aprende conceptos de recuperación que pueden ayudarte a organizar mejor tus periodos de descanso.
+              Descubre conceptos importantes sobre descanso y recuperación muscular para complementar tus entrenamientos.
             </p>
           </div>
 
@@ -463,13 +463,17 @@ export function BonusSection({ onCtaClick }: BonusSectionProps) {
           <span className="block text-xs sm:text-sm font-bold tracking-[0.15em] text-[#E50914] uppercase mb-1">
             INCLUIDOS SIN COSTO ADICIONAL EN THAI ELITE COMPLETO
           </span>
-          <p className="text-xs sm:text-sm text-[#D4D4D8] max-w-sm leading-relaxed">
-            Accede a la biblioteca principal y a los{' '}
+          <p className="text-xs sm:text-sm text-[#D4D4D8] max-w-sm leading-relaxed mb-3">
+            Recibe los{' '}
             <strong className="text-white font-semibold">
-              5 bonos exclusivos
+              cinco bonos exclusivos
             </strong>{' '}
-            en un solo paquete.
+            junto con la biblioteca principal de entrenamientos de Muay Thai.
           </p>
+          <span className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[#E50914] text-white text-xs font-headline font-bold uppercase tracking-wider shadow-md">
+            ¡QUIERO TODOS LOS BONOS!
+            <ChevronRight className="w-3.5 h-3.5" />
+          </span>
         </div>
       </motion.div>
     </section>

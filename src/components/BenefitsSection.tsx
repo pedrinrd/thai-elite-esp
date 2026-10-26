@@ -191,24 +191,24 @@ export function BenefitsSection({ onCtaClick }: BenefitsSectionProps) {
   const benefitsCards = [
     {
       icon: Video,
-      title: 'ENTRENAMIENTOS EN VIDEO',
+      title: 'APRENDE LOS MOVIMIENTOS BÁSICOS',
       description:
-        'Consulta demostraciones prácticas y sigue cada ejercicio a tu ritmo, desde donde estés.',
-      footer: 'Entrenamientos organizados para facilitar tu aprendizaje.',
+        'Conoce técnicas de puños, patadas, rodillas y defensas mediante demostraciones en video.',
+      footer: 'Descubre los fundamentos del Muay Thai.',
     },
     {
       icon: Layers,
-      title: 'COMBINACIONES LISTAS PARA PRACTICAR',
+      title: 'APRENDE A TU PROPIO RITMO',
       description:
-        'Descubre secuencias de golpes, patadas y defensas para incorporar a tus entrenamientos y clases.',
-      footer: 'Más variedad de ejercicios sin empezar desde cero.',
+        'Mira las demostraciones, pausa los videos y repasa los movimientos las veces que necesites.',
+      footer: 'Observa, repasa y practica a tu ritmo.',
     },
     {
       icon: Smartphone,
-      title: 'ACCESO DESDE TU CELULAR',
+      title: 'APRENDE DESDE CASA',
       description:
-        'Lleva tu biblioteca de Muay Thai contigo y consulta el contenido cuando lo necesites.',
-      footer: 'Tu material de entrenamiento siempre a la mano.',
+        'Accede a los entrenamientos desde tu celular o computadora, cuando quieras.',
+      footer: 'Tu biblioteca de Muay Thai siempre disponible.',
     },
   ];
 
@@ -226,14 +226,17 @@ export function BenefitsSection({ onCtaClick }: BenefitsSectionProps) {
         className="text-center max-w-3xl mx-auto mb-14"
       >
         <span className="text-xs font-semibold uppercase tracking-widest text-[#E50914] mb-2 block">
-          TODO EN UN SOLO LUGAR
+          IDEAL PARA QUIENES QUIEREN EMPEZAR
         </span>
         <h2
-          className="font-headline font-black text-3xl sm:text-5xl text-white tracking-tight"
+          className="font-headline font-black text-3xl sm:text-5xl text-white tracking-tight mb-3"
           style={{ textWrap: 'balance' }}
         >
-          TODO LO QUE NECESITAS PARA ENTRENAR Y PREPARAR TUS CLASES CON MÁS FACILIDAD.
+          ¡CONOCE LOS FUNDAMENTOS DEL MUAY THAI Y EMPIEZA A PRACTICAR A TU RITMO!
         </h2>
+        <p className="text-sm sm:text-base text-[#A1A1AA] max-w-2xl mx-auto leading-relaxed">
+          No necesitas experiencia previa para comenzar a conocer las técnicas básicas del Muay Thai. Explora entrenamientos en video y descubre movimientos que puedes estudiar y practicar según tu nivel.
+        </p>
       </motion.div>
 
       {/* 3 Minimal Cards with Staggered Scroll Reveal */}
@@ -298,16 +301,16 @@ export function BenefitsSection({ onCtaClick }: BenefitsSectionProps) {
         <div className="text-center max-w-2xl mx-auto mb-10 relative z-10">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-[#E50914]/10 border border-[#E50914]/25 text-[#E50914] text-xs font-semibold uppercase tracking-widest mb-3">
             <Flame className="w-3.5 h-3.5" />
-            <span>BIBLIOTECA DIGITAL • ENTRENAMIENTOS EN VIDEO</span>
+            <span>ENTRENAMIENTOS EN VIDEO • FUNDAMENTOS DEL MUAY THAI</span>
           </div>
           <h3
             className="font-headline font-black text-3xl sm:text-5xl text-white tracking-tight uppercase mb-3"
             style={{ textWrap: 'balance' }}
           >
-            MIRA LO QUE ENCONTRARÁS DENTRO DE <span className="text-[#E50914]">THAI ELITE</span>
+            ¡MIRA CÓMO PUEDES EMPEZAR A APRENDER <span className="text-[#E50914]">MUAY THAI!</span>
           </h3>
           <p className="text-sm sm:text-base text-[#A1A1AA]">
-            Explora algunos ejemplos de los entrenamientos disponibles. Descubre técnicas, combinaciones y ejercicios explicados en video para que puedas consultarlos y ponerlos en práctica.
+            Explora demostraciones de técnicas, movimientos básicos y combinaciones para conocer el contenido de THAI ELITE y comenzar a familiarizarte con el Muay Thai.
           </p>
         </div>
 
@@ -398,7 +401,7 @@ export function BenefitsSection({ onCtaClick }: BenefitsSectionProps) {
             onClick={onCtaClick}
             className="px-8 py-4 min-h-[50px] bg-[#E50914] hover:bg-[#C40812] active:scale-[0.98] text-white font-headline font-bold text-base sm:text-lg uppercase tracking-wider rounded-lg shadow-lg shadow-[#E50914]/25 border border-white/10 transition-all duration-200"
           >
-            QUIERO ACCEDER A LOS ENTRENAMIENTOS
+            ¡QUIERO EMPEZAR A APRENDER!
           </button>
         </div>
       </motion.div>

@@ -144,7 +144,7 @@ export function HeroSection({ onCtaClick }: HeroSectionProps) {
         className="font-headline font-black text-4xl sm:text-6xl md:text-7xl lg:text-7xl tracking-tight text-white max-w-4xl leading-[0.95] mb-4"
         style={{ textWrap: 'balance' }}
       >
-        ¡DEJA DE IMPROVISAR TUS ENTRENAMIENTOS <span className="text-[#E50914]">DE MUAY THAI</span>!
+        ¡APRENDE MUAY THAI EN CASA, <span className="text-[#E50914]">INCLUSO SI EMPIEZAS DESDE CERO!</span>
       </motion.h1>
 
       {/* Subheadline */}
@@ -154,7 +154,7 @@ export function HeroSection({ onCtaClick }: HeroSectionProps) {
         transition={{ duration: 0.5, delay: 0.1 }}
         className="text-lg sm:text-2xl text-white font-medium max-w-2xl leading-snug mb-3"
       >
-        Ten tus entrenamientos, técnicas y combinaciones organizados en un solo lugar, listos para consultar cuando los necesites.
+        Descubre los fundamentos del Muay Thai con entrenamientos en video. Conoce técnicas de puños, patadas, rodillas, defensas y combinaciones para comenzar a practicar a tu propio ritmo.
       </motion.p>
 
       {/* Texto complementar */}
@@ -164,7 +164,7 @@ export function HeroSection({ onCtaClick }: HeroSectionProps) {
         transition={{ duration: 0.5, delay: 0.15 }}
         className="text-sm sm:text-base text-[#A1A1AA] max-w-xl leading-relaxed mb-8"
       >
-        ¿Das clases de Muay Thai o quieres mejorar tus entrenamientos? Deja de perder tiempo buscando ejercicios y combinaciones por internet. Accede a una biblioteca digital de entrenamientos en video para encontrar nuevas ideas, preparar tus clases y entrenar con más organización.
+        ¿Siempre has querido aprender Muay Thai, pero no sabes por dónde empezar? Con THAI ELITE tienes acceso a una biblioteca digital de entrenamientos en video para conocer los movimientos de esta arte marcial, repasar las técnicas y comenzar desde casa.
       </motion.p>
 
       {/* VSL Player (Formato vertical 9:16, centralizado, responsivo, sem cortar) */}
@@ -273,12 +273,12 @@ export function HeroSection({ onCtaClick }: HeroSectionProps) {
           onClick={onCtaClick}
           className="w-full sm:w-auto px-8 py-4 min-h-[52px] bg-[#E50914] hover:bg-[#C40812] active:scale-[0.98] text-white text-base sm:text-lg font-headline font-bold uppercase tracking-wider rounded-lg shadow-xl shadow-[#E50914]/25 border border-white/10 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E50914] focus-visible:ring-offset-2 focus-visible:ring-offset-[#090909]"
         >
-          QUIERO ACCEDER AHORA
+          ¡QUIERO EMPEZAR A APRENDER!
         </button>
 
         {/* Microcopy */}
         <p className="text-xs sm:text-sm text-[#A1A1AA] font-normal tracking-wide">
-          Pago único • Acceso inmediato • Garantía de 7 días
+          Pago único • Desde $100 MXN • Garantía de 7 días
         </p>
       </motion.div>
     </section>

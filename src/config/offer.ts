@@ -82,10 +82,10 @@ export const OFFER_CONFIG = {
   // Guarantee
   guaranteeDays: 7,
   guaranteeText:
-    'Explora la plataforma, conoce los entrenamientos y descubre si el contenido se adapta a lo que estás buscando. Si decides que Thai Elite no es para ti, puedes solicitar un reembolso dentro del plazo y conforme a las condiciones de la garantía.',
+    'Explora los entrenamientos, conoce las técnicas disponibles y descubre si el contenido es lo que estabas buscando. Si decides que THAI ELITE no es para ti, puedes solicitar un reembolso dentro del plazo y conforme a las condiciones de la garantía.',
 
   // Media assets
-  vslVideoSrc: '/assets/aistudio/Video_Project_6_afb3c956.mp4',
+  vslVideoSrc: '/assets/aistudio/vsl_esp_nv_5e7c703f.mp4',
   logoSrc:
     '/assets/aistudio/Logo_Esportivo_Thai_Elite_em_Vermelho_e_Prata_41134ae1.png',
   bonusShowcaseImageSrc: '/assets/aistudio/image_74197a46.png',
@@ -184,10 +184,10 @@ export const OFFER_CONFIG = {
       id: 'test-1',
       author: 'Lucas Ferreira',
       handle: '@lucasferreira.mt',
-      tag: 'Instructor de Muay Thai',
+      tag: 'Practicante de Muay Thai',
       imageSrc: '/assets/aistudio/depoimento-1-UJHwJDK__fb0a57c7.webp',
       quote:
-        'Ya había comprado otros materiales antes y ninguno se acerca a la calidad de este. Armo las clases de toda la semana sin complicarme. ¡Vale totalmente la pena!',
+        'Ya había comprado otros materiales antes y ninguno se acerca a la calidad de este. Puedo repasar las técnicas toda la semana sin complicarme. ¡Vale totalmente la pena!',
     },
     {
       id: 'test-2',
@@ -196,7 +196,7 @@ export const OFFER_CONFIG = {
       tag: 'Practicante y Atleta',
       imageSrc: '/assets/aistudio/depoimento-2-1zoWddI4_46bb19a3.webp',
       quote:
-        'Lo que más me llamó la atención fue el trabajo de manoplas y los planes de clase. Las combinaciones ya vienen listas y eso facilita muchísimo aplicarlas en el gimnasio.',
+        'Lo que más me llamó la atención fueron las demostraciones y secuencias en video. Las combinaciones vienen muy claras y eso facilita muchísimo practicarlas.',
     },
     {
       id: 'test-3',
@@ -253,11 +253,11 @@ export const OFFER_CONFIG = {
       highlightRed: '20',
       title: 'COMBINACIONES DE ATAQUE PROFESIONALES',
       description:
-        'Amplía tus opciones de entrenamiento con combinaciones organizadas para practicar.',
+        'Explora combinaciones de Muay Thai y descubre nuevas secuencias para practicar.',
       bullets: [
-        'Combinaciones de golpes y patadas.',
-        'Secuencias explicadas paso a paso.',
-        'Ideas para practicar y utilizar en tus clases.',
+        'Conoce diferentes combinaciones de golpes.',
+        'Descubre secuencias de puños y patadas.',
+        'Amplía tus conocimientos de ataque.',
       ],
       ctaLabel: 'VER BONO',
       wideCard: true,
@@ -269,11 +269,11 @@ export const OFFER_CONFIG = {
       highlightRed: '50',
       title: 'ENTRENAMIENTOS FÍSICOS PARA MUAY THAI',
       description:
-        'Encuentra nuevas ideas para trabajar tu condición física y complementar tus entrenamientos de Muay Thai.',
+        'Conoce ejercicios que pueden ayudarte a complementar tu preparación física para practicar Muay Thai.',
       bullets: [
         'Ejercicios de fuerza.',
         'Resistencia y acondicionamiento.',
-        'Opciones para complementar tu preparación física.',
+        'Preparación física complementaria.',
       ],
       ctaLabel: 'CONOCER BONO',
       previewVideoSrc:
@@ -285,11 +285,11 @@ export const OFFER_CONFIG = {
       highlightRed: '50',
       title: 'TÉCNICAS DE DEFENSA Y CONTRAATAQUE',
       description:
-        'Conoce diferentes recursos defensivos y amplía tu repertorio técnico.',
+        'Descubre recursos de defensa y contraataque para comprender mejor los movimientos utilizados en el Muay Thai.',
       bullets: [
-        'Técnicas defensivas.',
-        'Movimientos de contraataque.',
-        'Ejercicios para practicar tus reacciones.',
+        'Conoce diferentes técnicas defensivas.',
+        'Aprende sobre movimientos de contraataque.',
+        'Amplía tus conocimientos técnicos.',
       ],
       ctaLabel: 'CONOCER BONO',
       previewVideoSrc: '/assets/aistudio/Tecnica_29-D_9qbE1l_cae8af89.mp4',
@@ -300,10 +300,10 @@ export const OFFER_CONFIG = {
       highlightRed: 'GUÍA',
       title: 'DE FUNDAMENTOS DEL MUAY THAI',
       description:
-        'Refuerza los conocimientos básicos que forman parte de una buena preparación en Muay Thai.',
+        'Conoce los principios básicos del Muay Thai y refuerza tus conocimientos desde el inicio.',
       bullets: [
         'Postura y guardia.',
-        'Desplazamientos.',
+        'Desplazamientos básicos.',
         'Fundamentos esenciales.',
       ],
       ctaLabel: 'CONOCER BONO',
@@ -316,11 +316,11 @@ export const OFFER_CONFIG = {
       highlightRed: 'GUÍA',
       title: 'DE RECUPERACIÓN MUSCULAR',
       description:
-        'Aprende conceptos de recuperación que pueden ayudarte a organizar mejor tus periodos de descanso.',
+        'Descubre conceptos importantes sobre descanso y recuperación muscular para complementar tus entrenamientos.',
       bullets: [
         'Cuidados después del entrenamiento.',
         'Descanso y recuperación.',
-        'Recomendaciones para complementar tu rutina.',
+        'Recomendaciones para tu rutina.',
       ],
       ctaLabel: 'CONOCER BONO',
       previewVideoSrc:
@@ -331,29 +331,34 @@ export const OFFER_CONFIG = {
   // FAQ
   faq: [
     {
-      question: '¿Cómo recibo mi acceso?',
+      question: '¿PUEDO EMPEZAR SI NUNCA HE PRACTICADO MUAY THAI?',
+      answer:
+        'Sí. THAI ELITE incluye entrenamientos y demostraciones que te permiten conocer los fundamentos del Muay Thai. Puedes comenzar observando técnicas básicas y repasando los movimientos a tu propio ritmo. El material es una biblioteca digital y no sustituye la orientación de un instructor.',
+    },
+    {
+      question: '¿PUEDO APRENDER DESDE CASA?',
+      answer:
+        'Puedes acceder a los videos desde casa y conocer las técnicas y movimientos del Muay Thai. Para practicar, elige ejercicios adecuados a tu experiencia y utiliza un espacio seguro.',
+    },
+    {
+      question: '¿NECESITO EQUIPO PARA COMENZAR?',
+      answer:
+        'Depende del entrenamiento. Algunos movimientos básicos pueden practicarse sin equipo especializado, mientras que otros requieren accesorios o supervisión.',
+    },
+    {
+      question: '¿CÓMO RECIBO MI ACCESO?',
       answer:
         'Después de confirmar tu pago, recibirás las instrucciones para acceder al material digital a través de los canales de entrega disponibles.',
     },
     {
-      question: '¿Puedo acceder desde mi celular?',
+      question: '¿EL PAGO ES ÚNICO?',
       answer:
-        'Sí. Puedes consultar el contenido desde tu celular, tablet o computadora con conexión a internet.',
+        'Sí. Realizas un solo pago por el plan elegido. No hay mensualidades.',
     },
     {
-      question: '¿Es un pago único?',
+      question: '¿CUÁL ES LA DIFERENCIA ENTRE LOS PLANES?',
       answer:
-        'Sí. Realizas un solo pago por el plan que elijas, sin mensualidades.',
-    },
-    {
-      question: '¿Tengo garantía?',
-      answer:
-        'Sí. Cuentas con una garantía de 7 días, conforme a las condiciones de compra.',
-    },
-    {
-      question: '¿Cuál es la diferencia entre Thai Elite Esencial y Completo?',
-      answer:
-        'El Plan Esencial incluye la biblioteca principal de entrenamientos en video. El Plan Completo incluye todo el contenido del Esencial y cinco bonos adicionales con combinaciones, preparación física, defensa, fundamentos y recuperación muscular.',
+        'El Plan Esencial incluye la biblioteca principal de entrenamientos. El Plan Completo incluye todo el contenido del Esencial más cinco bonos exclusivos.',
     },
   ],
 };

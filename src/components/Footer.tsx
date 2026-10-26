@@ -45,7 +45,7 @@ export function Footer() {
 
         {/* Legal Disclaimer */}
         <p className="max-w-2xl mx-auto text-[11px] text-[#555] leading-relaxed">
-          Este producto digital tiene fines informativos y de entrenamiento deportivo. No sustituye la orientación médica ni la supervisión de un instructor o profesional de acondicionamiento físico. Practica siempre de acuerdo con tu condición física.
+          THAI ELITE es una biblioteca digital de entrenamientos en video. No sustituye la supervisión presencial de un instructor ni la orientación de profesionales de la salud. Practica siempre de acuerdo con tu experiencia y condición física.
         </p>
 
         {/* Copyright */}

@@ -18,23 +18,37 @@ declare global {
 
 export const UTMIFY_PIXEL_ID = '6abf39dabeae388a564376b3';
 export const UTMIFY_SCRIPT_SRC = 'https://cdn.utmify.com.br/scripts/pixel/pixel.js';
+export const LOWTRACK_PIXEL_ID = 'lt_px_97899de67751';
+export const LOWTRACK_SCRIPT_SRC = 'https://lowtrack.com.br/pixel.js';
 
 export function initMetaPixel(rawConfig = OFFER_CONFIG.metaPixelId): void {
   if (typeof window === 'undefined') return;
 
-  // 1. Ensure UTMify Pixel is initialized if not already loaded by index.html
+  // 1. Ensure LowTrack Pixel is initialized if not already loaded by index.html
   if (!window.pixelId) {
-    window.pixelId = UTMIFY_PIXEL_ID;
+    window.pixelId = LOWTRACK_PIXEL_ID;
   }
+  const existingLowTrack = document.querySelector(
+    `script[src="${LOWTRACK_SCRIPT_SRC}"]`
+  );
+  if (!existingLowTrack) {
+    const a = document.createElement('script');
+    a.setAttribute('async', '');
+    a.setAttribute('defer', '');
+    a.setAttribute('src', LOWTRACK_SCRIPT_SRC);
+    document.head.appendChild(a);
+  }
+
+  // Ensure UTMify Pixel is also present if not already loaded by index.html
   const existingUtmify = document.querySelector(
     `script[src="${UTMIFY_SCRIPT_SRC}"]`
   );
   if (!existingUtmify) {
-    const a = document.createElement('script');
-    a.async = true;
-    a.defer = true;
-    a.src = UTMIFY_SCRIPT_SRC;
-    (document.head || document.documentElement).appendChild(a);
+    const u = document.createElement('script');
+    u.async = true;
+    u.defer = true;
+    u.src = UTMIFY_SCRIPT_SRC;
+    (document.head || document.documentElement).appendChild(u);
   }
 
   // 2. If a numeric Meta Pixel ID is also provided, initialize fbq
